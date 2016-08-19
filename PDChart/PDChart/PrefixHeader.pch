@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  PDChart
+//
+//  Created by 彭懂 on 16/8/19.
+//  Copyright © 2016年 彭懂. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIColorExt.h"
+
+#define ColorWithHex(Hex) [UIColor colorWithHexString:Hex]
+#define kMainBorderColor                ColorWithHex(@"#560081") // 边框颜色
+
+#define kCColorZuHe                      @[ \
+ColorWithHex(@"#ff4646"), \
+ColorWithHex(@"#008aff"), \
+ColorWithHex(@"#00dcd4"), \
+ColorWithHex(@"#ffb900"), \
+ColorWithHex(@"#ff5a23"), \
+ColorWithHex(@"#ff66cc"), \
+ColorWithHex(@"#33cc33"), \
+ColorWithHex(@"#cc6633"), \
+ColorWithHex(@"#9933cc"), \
+ColorWithHex(@"#990000"), \
+];
+
+#endif /* PrefixHeader_pch */
